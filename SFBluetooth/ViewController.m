@@ -7,20 +7,24 @@
 //
 
 #import "ViewController.h"
+#import "SFBluetooth.h"
+@interface ViewController ()
+@property (nonatomic, strong) SFBluetooth *blueTooth;
+@end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.blueTooth = [[SFBluetooth alloc] init];
+    [self.blueTooth startBluetooth];
     // Do any additional setup after loading the view.
 }
 
 
-- (void)setRepresentedObject:(id)representedObject {
-    [super setRepresentedObject:representedObject];
-
-    // Update the view, if already loaded.
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
 }
 
 

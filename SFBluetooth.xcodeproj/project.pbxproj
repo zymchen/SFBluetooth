@@ -7,66 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E543A90F1DF5788C00BE25C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A90E1DF5788C00BE25C3 /* AppDelegate.m */; };
-		E543A9121DF5788C00BE25C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9111DF5788C00BE25C3 /* main.m */; };
-		E543A9151DF5788C00BE25C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9141DF5788C00BE25C3 /* ViewController.m */; };
-		E543A9171DF5788C00BE25C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E543A9161DF5788C00BE25C3 /* Assets.xcassets */; };
-		E543A91A1DF5788C00BE25C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E543A9181DF5788C00BE25C3 /* Main.storyboard */; };
-		E543A9251DF5788C00BE25C3 /* SFBluetoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9241DF5788C00BE25C3 /* SFBluetoothTests.m */; };
-		E543A9301DF5788C00BE25C3 /* SFBluetoothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A92F1DF5788C00BE25C3 /* SFBluetoothUITests.m */; };
+		E543A94E1DF5850D00BE25C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A94D1DF5850D00BE25C3 /* main.m */; };
+		E543A9511DF5850D00BE25C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9501DF5850D00BE25C3 /* AppDelegate.m */; };
+		E543A9541DF5850D00BE25C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9531DF5850D00BE25C3 /* ViewController.m */; };
+		E543A9571DF5850D00BE25C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E543A9551DF5850D00BE25C3 /* Main.storyboard */; };
+		E543A9591DF5850D00BE25C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E543A9581DF5850D00BE25C3 /* Assets.xcassets */; };
+		E543A95C1DF5850D00BE25C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E543A95A1DF5850D00BE25C3 /* LaunchScreen.storyboard */; };
+		E543A9671DF5850D00BE25C3 /* SFBluetoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9661DF5850D00BE25C3 /* SFBluetoothTests.m */; };
+		E543A9721DF5850D00BE25C3 /* SFBluetoothUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9711DF5850D00BE25C3 /* SFBluetoothUITests.m */; };
+		E543A9811DF5851D00BE25C3 /* SFBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = E543A9801DF5851D00BE25C3 /* SFBluetooth.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E543A9211DF5788C00BE25C3 /* PBXContainerItemProxy */ = {
+		E543A9631DF5850D00BE25C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E543A9021DF5788C00BE25C3 /* Project object */;
+			containerPortal = E543A9411DF5850D00BE25C3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E543A9091DF5788C00BE25C3;
+			remoteGlobalIDString = E543A9481DF5850D00BE25C3;
 			remoteInfo = SFBluetooth;
 		};
-		E543A92C1DF5788C00BE25C3 /* PBXContainerItemProxy */ = {
+		E543A96E1DF5850D00BE25C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E543A9021DF5788C00BE25C3 /* Project object */;
+			containerPortal = E543A9411DF5850D00BE25C3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E543A9091DF5788C00BE25C3;
+			remoteGlobalIDString = E543A9481DF5850D00BE25C3;
 			remoteInfo = SFBluetooth;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E543A90A1DF5788C00BE25C3 /* SFBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E543A90D1DF5788C00BE25C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		E543A90E1DF5788C00BE25C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E543A9111DF5788C00BE25C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E543A9131DF5788C00BE25C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E543A9141DF5788C00BE25C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E543A9161DF5788C00BE25C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E543A9191DF5788C00BE25C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E543A91B1DF5788C00BE25C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E543A9201DF5788C00BE25C3 /* SFBluetoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFBluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E543A9241DF5788C00BE25C3 /* SFBluetoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFBluetoothTests.m; sourceTree = "<group>"; };
-		E543A9261DF5788C00BE25C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E543A92B1DF5788C00BE25C3 /* SFBluetoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFBluetoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E543A92F1DF5788C00BE25C3 /* SFBluetoothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFBluetoothUITests.m; sourceTree = "<group>"; };
-		E543A9311DF5788C00BE25C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E543A9491DF5850D00BE25C3 /* SFBluetooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFBluetooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E543A94D1DF5850D00BE25C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E543A94F1DF5850D00BE25C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E543A9501DF5850D00BE25C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E543A9521DF5850D00BE25C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E543A9531DF5850D00BE25C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E543A9561DF5850D00BE25C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E543A9581DF5850D00BE25C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E543A95B1DF5850D00BE25C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E543A95D1DF5850D00BE25C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E543A9621DF5850D00BE25C3 /* SFBluetoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFBluetoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E543A9661DF5850D00BE25C3 /* SFBluetoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFBluetoothTests.m; sourceTree = "<group>"; };
+		E543A9681DF5850D00BE25C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E543A96D1DF5850D00BE25C3 /* SFBluetoothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFBluetoothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E543A9711DF5850D00BE25C3 /* SFBluetoothUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFBluetoothUITests.m; sourceTree = "<group>"; };
+		E543A9731DF5850D00BE25C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E543A97F1DF5851D00BE25C3 /* SFBluetooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFBluetooth.h; sourceTree = "<group>"; };
+		E543A9801DF5851D00BE25C3 /* SFBluetooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFBluetooth.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E543A9071DF5788C00BE25C3 /* Frameworks */ = {
+		E543A9461DF5850D00BE25C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E543A91D1DF5788C00BE25C3 /* Frameworks */ = {
+		E543A95F1DF5850D00BE25C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E543A9281DF5788C00BE25C3 /* Frameworks */ = {
+		E543A96A1DF5850D00BE25C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,63 +81,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E543A9011DF5788C00BE25C3 = {
+		E543A9401DF5850D00BE25C3 = {
 			isa = PBXGroup;
 			children = (
-				E543A90C1DF5788C00BE25C3 /* SFBluetooth */,
-				E543A9231DF5788C00BE25C3 /* SFBluetoothTests */,
-				E543A92E1DF5788C00BE25C3 /* SFBluetoothUITests */,
-				E543A90B1DF5788C00BE25C3 /* Products */,
+				E543A94B1DF5850D00BE25C3 /* SFBluetooth */,
+				E543A9651DF5850D00BE25C3 /* SFBluetoothTests */,
+				E543A9701DF5850D00BE25C3 /* SFBluetoothUITests */,
+				E543A94A1DF5850D00BE25C3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E543A90B1DF5788C00BE25C3 /* Products */ = {
+		E543A94A1DF5850D00BE25C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E543A90A1DF5788C00BE25C3 /* SFBluetooth.app */,
-				E543A9201DF5788C00BE25C3 /* SFBluetoothTests.xctest */,
-				E543A92B1DF5788C00BE25C3 /* SFBluetoothUITests.xctest */,
+				E543A9491DF5850D00BE25C3 /* SFBluetooth.app */,
+				E543A9621DF5850D00BE25C3 /* SFBluetoothTests.xctest */,
+				E543A96D1DF5850D00BE25C3 /* SFBluetoothUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E543A90C1DF5788C00BE25C3 /* SFBluetooth */ = {
+		E543A94B1DF5850D00BE25C3 /* SFBluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				E543A90D1DF5788C00BE25C3 /* AppDelegate.h */,
-				E543A90E1DF5788C00BE25C3 /* AppDelegate.m */,
-				E543A9131DF5788C00BE25C3 /* ViewController.h */,
-				E543A9141DF5788C00BE25C3 /* ViewController.m */,
-				E543A9161DF5788C00BE25C3 /* Assets.xcassets */,
-				E543A9181DF5788C00BE25C3 /* Main.storyboard */,
-				E543A91B1DF5788C00BE25C3 /* Info.plist */,
-				E543A9101DF5788C00BE25C3 /* Supporting Files */,
+				E543A94F1DF5850D00BE25C3 /* AppDelegate.h */,
+				E543A9501DF5850D00BE25C3 /* AppDelegate.m */,
+				E543A97F1DF5851D00BE25C3 /* SFBluetooth.h */,
+				E543A9801DF5851D00BE25C3 /* SFBluetooth.m */,
+				E543A9521DF5850D00BE25C3 /* ViewController.h */,
+				E543A9531DF5850D00BE25C3 /* ViewController.m */,
+				E543A9551DF5850D00BE25C3 /* Main.storyboard */,
+				E543A9581DF5850D00BE25C3 /* Assets.xcassets */,
+				E543A95A1DF5850D00BE25C3 /* LaunchScreen.storyboard */,
+				E543A95D1DF5850D00BE25C3 /* Info.plist */,
+				E543A94C1DF5850D00BE25C3 /* Supporting Files */,
 			);
 			path = SFBluetooth;
 			sourceTree = "<group>";
 		};
-		E543A9101DF5788C00BE25C3 /* Supporting Files */ = {
+		E543A94C1DF5850D00BE25C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E543A9111DF5788C00BE25C3 /* main.m */,
+				E543A94D1DF5850D00BE25C3 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		E543A9231DF5788C00BE25C3 /* SFBluetoothTests */ = {
+		E543A9651DF5850D00BE25C3 /* SFBluetoothTests */ = {
 			isa = PBXGroup;
 			children = (
-				E543A9241DF5788C00BE25C3 /* SFBluetoothTests.m */,
-				E543A9261DF5788C00BE25C3 /* Info.plist */,
+				E543A9661DF5850D00BE25C3 /* SFBluetoothTests.m */,
+				E543A9681DF5850D00BE25C3 /* Info.plist */,
 			);
 			path = SFBluetoothTests;
 			sourceTree = "<group>";
 		};
-		E543A92E1DF5788C00BE25C3 /* SFBluetoothUITests */ = {
+		E543A9701DF5850D00BE25C3 /* SFBluetoothUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E543A92F1DF5788C00BE25C3 /* SFBluetoothUITests.m */,
-				E543A9311DF5788C00BE25C3 /* Info.plist */,
+				E543A9711DF5850D00BE25C3 /* SFBluetoothUITests.m */,
+				E543A9731DF5850D00BE25C3 /* Info.plist */,
 			);
 			path = SFBluetoothUITests;
 			sourceTree = "<group>";
@@ -140,13 +148,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E543A9091DF5788C00BE25C3 /* SFBluetooth */ = {
+		E543A9481DF5850D00BE25C3 /* SFBluetooth */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E543A9341DF5788C00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetooth" */;
+			buildConfigurationList = E543A9761DF5850D00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetooth" */;
 			buildPhases = (
-				E543A9061DF5788C00BE25C3 /* Sources */,
-				E543A9071DF5788C00BE25C3 /* Frameworks */,
-				E543A9081DF5788C00BE25C3 /* Resources */,
+				E543A9451DF5850D00BE25C3 /* Sources */,
+				E543A9461DF5850D00BE25C3 /* Frameworks */,
+				E543A9471DF5850D00BE25C3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -154,74 +162,74 @@
 			);
 			name = SFBluetooth;
 			productName = SFBluetooth;
-			productReference = E543A90A1DF5788C00BE25C3 /* SFBluetooth.app */;
+			productReference = E543A9491DF5850D00BE25C3 /* SFBluetooth.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E543A91F1DF5788C00BE25C3 /* SFBluetoothTests */ = {
+		E543A9611DF5850D00BE25C3 /* SFBluetoothTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E543A9371DF5788C00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothTests" */;
+			buildConfigurationList = E543A9791DF5850D00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothTests" */;
 			buildPhases = (
-				E543A91C1DF5788C00BE25C3 /* Sources */,
-				E543A91D1DF5788C00BE25C3 /* Frameworks */,
-				E543A91E1DF5788C00BE25C3 /* Resources */,
+				E543A95E1DF5850D00BE25C3 /* Sources */,
+				E543A95F1DF5850D00BE25C3 /* Frameworks */,
+				E543A9601DF5850D00BE25C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E543A9221DF5788C00BE25C3 /* PBXTargetDependency */,
+				E543A9641DF5850D00BE25C3 /* PBXTargetDependency */,
 			);
 			name = SFBluetoothTests;
 			productName = SFBluetoothTests;
-			productReference = E543A9201DF5788C00BE25C3 /* SFBluetoothTests.xctest */;
+			productReference = E543A9621DF5850D00BE25C3 /* SFBluetoothTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E543A92A1DF5788C00BE25C3 /* SFBluetoothUITests */ = {
+		E543A96C1DF5850D00BE25C3 /* SFBluetoothUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E543A93A1DF5788C00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothUITests" */;
+			buildConfigurationList = E543A97C1DF5850D00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothUITests" */;
 			buildPhases = (
-				E543A9271DF5788C00BE25C3 /* Sources */,
-				E543A9281DF5788C00BE25C3 /* Frameworks */,
-				E543A9291DF5788C00BE25C3 /* Resources */,
+				E543A9691DF5850D00BE25C3 /* Sources */,
+				E543A96A1DF5850D00BE25C3 /* Frameworks */,
+				E543A96B1DF5850D00BE25C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E543A92D1DF5788C00BE25C3 /* PBXTargetDependency */,
+				E543A96F1DF5850D00BE25C3 /* PBXTargetDependency */,
 			);
 			name = SFBluetoothUITests;
 			productName = SFBluetoothUITests;
-			productReference = E543A92B1DF5788C00BE25C3 /* SFBluetoothUITests.xctest */;
+			productReference = E543A96D1DF5850D00BE25C3 /* SFBluetoothUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E543A9021DF5788C00BE25C3 /* Project object */ = {
+		E543A9411DF5850D00BE25C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = picooc;
 				TargetAttributes = {
-					E543A9091DF5788C00BE25C3 = {
+					E543A9481DF5850D00BE25C3 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 38T6QY52JB;
 						ProvisioningStyle = Automatic;
 					};
-					E543A91F1DF5788C00BE25C3 = {
+					E543A9611DF5850D00BE25C3 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 38T6QY52JB;
 						ProvisioningStyle = Automatic;
-						TestTargetID = E543A9091DF5788C00BE25C3;
+						TestTargetID = E543A9481DF5850D00BE25C3;
 					};
-					E543A92A1DF5788C00BE25C3 = {
+					E543A96C1DF5850D00BE25C3 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 38T6QY52JB;
 						ProvisioningStyle = Automatic;
-						TestTargetID = E543A9091DF5788C00BE25C3;
+						TestTargetID = E543A9481DF5850D00BE25C3;
 					};
 				};
 			};
-			buildConfigurationList = E543A9051DF5788C00BE25C3 /* Build configuration list for PBXProject "SFBluetooth" */;
+			buildConfigurationList = E543A9441DF5850D00BE25C3 /* Build configuration list for PBXProject "SFBluetooth" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -229,36 +237,37 @@
 				en,
 				Base,
 			);
-			mainGroup = E543A9011DF5788C00BE25C3;
-			productRefGroup = E543A90B1DF5788C00BE25C3 /* Products */;
+			mainGroup = E543A9401DF5850D00BE25C3;
+			productRefGroup = E543A94A1DF5850D00BE25C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E543A9091DF5788C00BE25C3 /* SFBluetooth */,
-				E543A91F1DF5788C00BE25C3 /* SFBluetoothTests */,
-				E543A92A1DF5788C00BE25C3 /* SFBluetoothUITests */,
+				E543A9481DF5850D00BE25C3 /* SFBluetooth */,
+				E543A9611DF5850D00BE25C3 /* SFBluetoothTests */,
+				E543A96C1DF5850D00BE25C3 /* SFBluetoothUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E543A9081DF5788C00BE25C3 /* Resources */ = {
+		E543A9471DF5850D00BE25C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E543A9171DF5788C00BE25C3 /* Assets.xcassets in Resources */,
-				E543A91A1DF5788C00BE25C3 /* Main.storyboard in Resources */,
+				E543A95C1DF5850D00BE25C3 /* LaunchScreen.storyboard in Resources */,
+				E543A9591DF5850D00BE25C3 /* Assets.xcassets in Resources */,
+				E543A9571DF5850D00BE25C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E543A91E1DF5788C00BE25C3 /* Resources */ = {
+		E543A9601DF5850D00BE25C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E543A9291DF5788C00BE25C3 /* Resources */ = {
+		E543A96B1DF5850D00BE25C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,60 +277,69 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E543A9061DF5788C00BE25C3 /* Sources */ = {
+		E543A9451DF5850D00BE25C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E543A9151DF5788C00BE25C3 /* ViewController.m in Sources */,
-				E543A9121DF5788C00BE25C3 /* main.m in Sources */,
-				E543A90F1DF5788C00BE25C3 /* AppDelegate.m in Sources */,
+				E543A9541DF5850D00BE25C3 /* ViewController.m in Sources */,
+				E543A9511DF5850D00BE25C3 /* AppDelegate.m in Sources */,
+				E543A94E1DF5850D00BE25C3 /* main.m in Sources */,
+				E543A9811DF5851D00BE25C3 /* SFBluetooth.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E543A91C1DF5788C00BE25C3 /* Sources */ = {
+		E543A95E1DF5850D00BE25C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E543A9251DF5788C00BE25C3 /* SFBluetoothTests.m in Sources */,
+				E543A9671DF5850D00BE25C3 /* SFBluetoothTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E543A9271DF5788C00BE25C3 /* Sources */ = {
+		E543A9691DF5850D00BE25C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E543A9301DF5788C00BE25C3 /* SFBluetoothUITests.m in Sources */,
+				E543A9721DF5850D00BE25C3 /* SFBluetoothUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E543A9221DF5788C00BE25C3 /* PBXTargetDependency */ = {
+		E543A9641DF5850D00BE25C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E543A9091DF5788C00BE25C3 /* SFBluetooth */;
-			targetProxy = E543A9211DF5788C00BE25C3 /* PBXContainerItemProxy */;
+			target = E543A9481DF5850D00BE25C3 /* SFBluetooth */;
+			targetProxy = E543A9631DF5850D00BE25C3 /* PBXContainerItemProxy */;
 		};
-		E543A92D1DF5788C00BE25C3 /* PBXTargetDependency */ = {
+		E543A96F1DF5850D00BE25C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E543A9091DF5788C00BE25C3 /* SFBluetooth */;
-			targetProxy = E543A92C1DF5788C00BE25C3 /* PBXContainerItemProxy */;
+			target = E543A9481DF5850D00BE25C3 /* SFBluetooth */;
+			targetProxy = E543A96E1DF5850D00BE25C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E543A9181DF5788C00BE25C3 /* Main.storyboard */ = {
+		E543A9551DF5850D00BE25C3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E543A9191DF5788C00BE25C3 /* Base */,
+				E543A9561DF5850D00BE25C3 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E543A95A1DF5850D00BE25C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E543A95B1DF5850D00BE25C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E543A9321DF5788C00BE25C3 /* Debug */ = {
+		E543A9741DF5850D00BE25C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -342,7 +360,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -361,14 +379,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E543A9331DF5788C00BE25C3 /* Release */ = {
+		E543A9751DF5850D00BE25C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,7 +408,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -402,86 +421,84 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E543A9351DF5788C00BE25C3 /* Debug */ = {
+		E543A9771DF5850D00BE25C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 38T6QY52JB;
 				INFOPLIST_FILE = SFBluetooth/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picooc.SFBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		E543A9361DF5788C00BE25C3 /* Release */ = {
+		E543A9781DF5850D00BE25C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 38T6QY52JB;
 				INFOPLIST_FILE = SFBluetooth/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picooc.SFBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		E543A9381DF5788C00BE25C3 /* Debug */ = {
+		E543A97A1DF5850D00BE25C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 38T6QY52JB;
 				INFOPLIST_FILE = SFBluetoothTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picooc.SFBluetoothTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFBluetooth.app/Contents/MacOS/SFBluetooth";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFBluetooth.app/SFBluetooth";
 			};
 			name = Debug;
 		};
-		E543A9391DF5788C00BE25C3 /* Release */ = {
+		E543A97B1DF5850D00BE25C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 38T6QY52JB;
 				INFOPLIST_FILE = SFBluetoothTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picooc.SFBluetoothTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFBluetooth.app/Contents/MacOS/SFBluetooth";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SFBluetooth.app/SFBluetooth";
 			};
 			name = Release;
 		};
-		E543A93B1DF5788C00BE25C3 /* Debug */ = {
+		E543A97D1DF5850D00BE25C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 38T6QY52JB;
 				INFOPLIST_FILE = SFBluetoothUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picooc.SFBluetoothUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SFBluetooth;
 			};
 			name = Debug;
 		};
-		E543A93C1DF5788C00BE25C3 /* Release */ = {
+		E543A97E1DF5850D00BE25C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 38T6QY52JB;
 				INFOPLIST_FILE = SFBluetoothUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = picooc.SFBluetoothUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = SFBluetooth;
@@ -491,40 +508,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E543A9051DF5788C00BE25C3 /* Build configuration list for PBXProject "SFBluetooth" */ = {
+		E543A9441DF5850D00BE25C3 /* Build configuration list for PBXProject "SFBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E543A9321DF5788C00BE25C3 /* Debug */,
-				E543A9331DF5788C00BE25C3 /* Release */,
+				E543A9741DF5850D00BE25C3 /* Debug */,
+				E543A9751DF5850D00BE25C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E543A9341DF5788C00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetooth" */ = {
+		E543A9761DF5850D00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetooth" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E543A9351DF5788C00BE25C3 /* Debug */,
-				E543A9361DF5788C00BE25C3 /* Release */,
+				E543A9771DF5850D00BE25C3 /* Debug */,
+				E543A9781DF5850D00BE25C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E543A9371DF5788C00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothTests" */ = {
+		E543A9791DF5850D00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E543A9381DF5788C00BE25C3 /* Debug */,
-				E543A9391DF5788C00BE25C3 /* Release */,
+				E543A97A1DF5850D00BE25C3 /* Debug */,
+				E543A97B1DF5850D00BE25C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E543A93A1DF5788C00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothUITests" */ = {
+		E543A97C1DF5850D00BE25C3 /* Build configuration list for PBXNativeTarget "SFBluetoothUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E543A93B1DF5788C00BE25C3 /* Debug */,
-				E543A93C1DF5788C00BE25C3 /* Release */,
+				E543A97D1DF5850D00BE25C3 /* Debug */,
+				E543A97E1DF5850D00BE25C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E543A9021DF5788C00BE25C3 /* Project object */;
+	rootObject = E543A9411DF5850D00BE25C3 /* Project object */;
 }
